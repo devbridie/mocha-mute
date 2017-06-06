@@ -1,0 +1,36 @@
+{
+  "name": "mocha-mute",
+  "version": "1.1.2",
+  "description": "Provides a wrapper for muting mocha tests.",
+  "main": "index",
+  "typings": "index",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint -c .eslintrc.json ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbridie/mocha-mute.git"
+  },
+  "keywords": [
+    "mocha",
+    "mute",
+    "silence",
+    "stdout",
+    "console"
+  ],
+  "author": "Dereck Bridie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbridie/mocha-mute/issues"
+  },
+  "homepage": "https://github.com/devbridie/mocha-mute#readme",
+  "dependencies": {
+    "mocha": "^3.4.2",
+    "mute": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "sinon": "^2.3.2"
+  }
+}
